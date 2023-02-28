@@ -7,9 +7,9 @@
 
 int main()
 {
-    // Open the given test file for the system, create the Cache and Memory vectors
+    // Open the given test file for the system, create the Cache and Memory vectors, input the filename here!
     ifstream TestFileRead;
-    TestFileRead.open("../part-one-addresses.txt");
+    TestFileRead.open("../exampleAddresses.txt");
 
     // Initialize cache and individual cache blocks
     Cache testCache(16, 1, 64);
